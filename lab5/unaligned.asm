@@ -1,0 +1,9 @@
+.ORIG x3000
+
+LEA R0, PT
+;ADD R0, R0, #1
+LDW R0, R0, #0
+STW R1, R0, #0
+TRAP x25
+PT .FILL x4000
+.END

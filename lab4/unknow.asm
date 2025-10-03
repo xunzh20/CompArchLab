@@ -1,0 +1,6 @@
+.ORIG 0x3000
+.FILL xA000
+
+TRAP x25
+
+.END

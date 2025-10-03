@@ -1,0 +1,9 @@
+.ORIG x3000
+
+LEA R0, PT
+;ADD R0, R0, #1
+LDW R0, R0, #0
+JMP R0
+
+PT .FILL x3009
+.END

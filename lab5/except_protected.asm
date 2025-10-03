@@ -1,0 +1,7 @@
+.ORIG x1600
+;LEA R0, PT 
+;LDW R0, R0, #0
+
+;PT .FILL 0x0001 
+TRAP x25
+.END
